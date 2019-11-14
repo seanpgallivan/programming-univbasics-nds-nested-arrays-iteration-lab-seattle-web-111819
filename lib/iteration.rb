@@ -12,6 +12,7 @@ def join_ingredients(src)
     strings << "I Love #{src[row][0]} and #{src[row][1]} on my pizza"
     row += 1
   end
+  return strings
 end
 
 def find_greater_pair(src)
